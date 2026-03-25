@@ -1,0 +1,46 @@
+import { Link } from "react-router";
+export default function Footer() {
+  return (
+    <footer>
+      <nav class="footer-nav" aria-label="Footer Links">
+        <ul class="footer-row">
+          <li>
+            <a href="https://github.com/wangelyohannes">GitHub</a>
+          </li>
+          <li>
+            <a href="https://webpages.charlotte.edu/wyohanne/">CLT Web</a>
+          </li>
+          <li>
+            <a href="https://wangelyohannes.github.io/">GitHub.io</a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/wangely">freeCodeCamp</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/wangel-yohannes/">LinkedIn</a>
+          </li>
+          <li>
+            <Link to="/">ITIS 3135</Link>
+          </li>
+        </ul>
+
+        <ul class="footer-row">
+          <li>
+            <a href="yohannesdigital.com/index.html">
+              Page built by Yohannes Digital Studios
+            </a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/certification/wangely/responsive-web-design-v9">
+              Designed by Wangel Certified in Responsive Web Design
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="footer-copy">
+        &copy; 2026 Wangel Yohannes. All rights reserved.
+      </p>
+    </footer>
+  );
+}
