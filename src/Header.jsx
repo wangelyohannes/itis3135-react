@@ -17,6 +17,7 @@ export default function Header() {
         <Link to="/survey">Survey</Link> {" | "}
         <Link to="/product">Product</Link> {" | "}
         <Link to="/intro_form">Introduction Form</Link> {" | "}
+        <Link to="/slideshow">Slideshow</Link> {" | "}
         <Link to="https://webpages.charlotte.edu/wyohanne/itis3135/stuff/raNdoM-pAgE.htm">
           Crappy Page
         </Link>

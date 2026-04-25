@@ -13,6 +13,7 @@ import Documentation from "./Documentation.jsx";
 import Survey from "./Survey.jsx";
 import Product from "./Product.jsx";
 import Intro_form from "./Intro_form.jsx";
+import Slideshow from "./Slideshow.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -29,6 +30,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/survey" element={<Survey />} />
           <Route path="/product" element={<Product />} />
           <Route path="/intro_form" element={<Intro_form />} />
+          <Route path="/slideshow" element={<Slideshow />} />
         </Routes>
       </main>
       <Footer></Footer>
